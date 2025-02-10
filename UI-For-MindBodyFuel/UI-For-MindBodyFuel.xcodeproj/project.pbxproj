@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5267C84E2D506EE600373562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5267C8352D506EE500373562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5267C83C2D506EE500373562;
+			remoteInfo = "UI-For-MindBodyFuel";
+		};
+		5267C8582D506EE600373562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5267C8352D506EE500373562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5267C83C2D506EE500373562;
+			remoteInfo = "UI-For-MindBodyFuel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5267C83D2D506EE500373562 /* UI-For-MindBodyFuel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "UI-For-MindBodyFuel.app"; path = "/Users/satya/Desktop/Xcode/UI-For-MindBodyFuel/build/Debug-iphoneos/UI-For-MindBodyFuel.app"; sourceTree = "<absolute>"; };
+		5267C84D2D506EE600373562 /* UI-For-MindBodyFuelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "UI-For-MindBodyFuelTests.xctest"; path = "/Users/satya/Desktop/Xcode/UI-For-MindBodyFuel/build/Debug-iphoneos/UI-For-MindBodyFuel.app/PlugIns/UI-For-MindBodyFuelTests.xctest"; sourceTree = "<absolute>"; };
+		5267C8572D506EE600373562 /* UI-For-MindBodyFuelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "UI-For-MindBodyFuelUITests.xctest"; path = "/Users/satya/Desktop/Xcode/UI-For-MindBodyFuel/build/Debug-iphoneos/UI-For-MindBodyFuelUITests-Runner.app/PlugIns/UI-For-MindBodyFuelUITests.xctest"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5267C83F2D506EE500373562 /* UI-For-MindBodyFuel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "UI-For-MindBodyFuel";
+			sourceTree = "<group>";
+		};
+		5267C8502D506EE600373562 /* UI-For-MindBodyFuelTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "UI-For-MindBodyFuelTests";
+			sourceTree = "<group>";
+		};
+		5267C85A2D506EE600373562 /* UI-For-MindBodyFuelUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "UI-For-MindBodyFuelUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5267C83A2D506EE500373562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5267C84A2D506EE600373562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5267C8542D506EE600373562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5267C8342D506EE500373562 = {
+			isa = PBXGroup;
+			children = (
+				5267C83F2D506EE500373562 /* UI-For-MindBodyFuel */,
+				5267C8502D506EE600373562 /* UI-For-MindBodyFuelTests */,
+				5267C85A2D506EE600373562 /* UI-For-MindBodyFuelUITests */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5267C83C2D506EE500373562 /* UI-For-MindBodyFuel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5267C8612D506EE600373562 /* Build configuration list for PBXNativeTarget "UI-For-MindBodyFuel" */;
+			buildPhases = (
+				5267C8392D506EE500373562 /* Sources */,
+				5267C83A2D506EE500373562 /* Frameworks */,
+				5267C83B2D506EE500373562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5267C83F2D506EE500373562 /* UI-For-MindBodyFuel */,
+			);
+			name = "UI-For-MindBodyFuel";
+			packageProductDependencies = (
+			);
+			productName = "UI-For-MindBodyFuel";
+			productReference = 5267C83D2D506EE500373562 /* UI-For-MindBodyFuel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5267C84C2D506EE600373562 /* UI-For-MindBodyFuelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5267C8642D506EE600373562 /* Build configuration list for PBXNativeTarget "UI-For-MindBodyFuelTests" */;
+			buildPhases = (
+				5267C8492D506EE600373562 /* Sources */,
+				5267C84A2D506EE600373562 /* Frameworks */,
+				5267C84B2D506EE600373562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5267C84F2D506EE600373562 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5267C8502D506EE600373562 /* UI-For-MindBodyFuelTests */,
+			);
+			name = "UI-For-MindBodyFuelTests";
+			packageProductDependencies = (
+			);
+			productName = "UI-For-MindBodyFuelTests";
+			productReference = 5267C84D2D506EE600373562 /* UI-For-MindBodyFuelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5267C8562D506EE600373562 /* UI-For-MindBodyFuelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5267C8672D506EE600373562 /* Build configuration list for PBXNativeTarget "UI-For-MindBodyFuelUITests" */;
+			buildPhases = (
+				5267C8532D506EE600373562 /* Sources */,
+				5267C8542D506EE600373562 /* Frameworks */,
+				5267C8552D506EE600373562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5267C8592D506EE600373562 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5267C85A2D506EE600373562 /* UI-For-MindBodyFuelUITests */,
+			);
+			name = "UI-For-MindBodyFuelUITests";
+			packageProductDependencies = (
+			);
+			productName = "UI-For-MindBodyFuelUITests";
+			productReference = 5267C8572D506EE600373562 /* UI-For-MindBodyFuelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5267C8352D506EE500373562 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					5267C83C2D506EE500373562 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					5267C84C2D506EE600373562 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5267C83C2D506EE500373562;
+					};
+					5267C8562D506EE600373562 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5267C83C2D506EE500373562;
+					};
+				};
+			};
+			buildConfigurationList = 5267C8382D506EE500373562 /* Build configuration list for PBXProject "UI-For-MindBodyFuel" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5267C8342D506EE500373562;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5267C8342D506EE500373562;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5267C83C2D506EE500373562 /* UI-For-MindBodyFuel */,
+				5267C84C2D506EE600373562 /* UI-For-MindBodyFuelTests */,
+				5267C8562D506EE600373562 /* UI-For-MindBodyFuelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5267C83B2D506EE500373562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5267C84B2D506EE600373562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5267C8552D506EE600373562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5267C8392D506EE500373562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5267C8492D506EE600373562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5267C8532D506EE600373562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5267C84F2D506EE600373562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5267C83C2D506EE500373562 /* UI-For-MindBodyFuel */;
+			targetProxy = 5267C84E2D506EE600373562 /* PBXContainerItemProxy */;
+		};
+		5267C8592D506EE600373562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5267C83C2D506EE500373562 /* UI-For-MindBodyFuel */;
+			targetProxy = 5267C8582D506EE600373562 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5267C85F2D506EE600373562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5267C8602D506EE600373562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5267C8622D506EE600373562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UI-For-MindBodyFuel/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satya.UI-For-MindBodyFuel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5267C8632D506EE600373562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UI-For-MindBodyFuel/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satya.UI-For-MindBodyFuel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5267C8652D506EE600373562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satya.UI-For-MindBodyFuelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI-For-MindBodyFuel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UI-For-MindBodyFuel";
+			};
+			name = Debug;
+		};
+		5267C8662D506EE600373562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satya.UI-For-MindBodyFuelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI-For-MindBodyFuel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UI-For-MindBodyFuel";
+			};
+			name = Release;
+		};
+		5267C8682D506EE600373562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satya.UI-For-MindBodyFuelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UI-For-MindBodyFuel";
+			};
+			name = Debug;
+		};
+		5267C8692D506EE600373562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satya.UI-For-MindBodyFuelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UI-For-MindBodyFuel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5267C8382D506EE500373562 /* Build configuration list for PBXProject "UI-For-MindBodyFuel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5267C85F2D506EE600373562 /* Debug */,
+				5267C8602D506EE600373562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5267C8612D506EE600373562 /* Build configuration list for PBXNativeTarget "UI-For-MindBodyFuel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5267C8622D506EE600373562 /* Debug */,
+				5267C8632D506EE600373562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5267C8642D506EE600373562 /* Build configuration list for PBXNativeTarget "UI-For-MindBodyFuelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5267C8652D506EE600373562 /* Debug */,
+				5267C8662D506EE600373562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5267C8672D506EE600373562 /* Build configuration list for PBXNativeTarget "UI-For-MindBodyFuelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5267C8682D506EE600373562 /* Debug */,
+				5267C8692D506EE600373562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5267C8352D506EE500373562 /* Project object */;
+}

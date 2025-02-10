@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52B65C002D509CD3004E54B1 /* NIO in Frameworks */ = {isa = PBXBuildFile; productRef = 52B65BFF2D509CD3004E54B1 /* NIO */; };
+		52B65C022D509CD3004E54B1 /* NIOConcurrencyHelpers in Frameworks */ = {isa = PBXBuildFile; productRef = 52B65C012D509CD3004E54B1 /* NIOConcurrencyHelpers */; };
+		52B65C042D509CD3004E54B1 /* NIOCore in Frameworks */ = {isa = PBXBuildFile; productRef = 52B65C032D509CD3004E54B1 /* NIOCore */; };
+		52B65C062D509CD3004E54B1 /* NIOEmbedded in Frameworks */ = {isa = PBXBuildFile; productRef = 52B65C052D509CD3004E54B1 /* NIOEmbedded */; };
+		52B65C082D509CD3004E54B1 /* NIOFoundationCompat in Frameworks */ = {isa = PBXBuildFile; productRef = 52B65C072D509CD3004E54B1 /* NIOFoundationCompat */; };
+		52B65C0A2D509CD3004E54B1 /* NIOHTTP1 in Frameworks */ = {isa = PBXBuildFile; productRef = 52B65C092D509CD3004E54B1 /* NIOHTTP1 */; };
+		52B65C0C2D509CD3004E54B1 /* NIOPosix in Frameworks */ = {isa = PBXBuildFile; productRef = 52B65C0B2D509CD3004E54B1 /* NIOPosix */; };
+		52B65C0E2D509CD3004E54B1 /* NIOTLS in Frameworks */ = {isa = PBXBuildFile; productRef = 52B65C0D2D509CD3004E54B1 /* NIOTLS */; };
+		52B65C102D509CD3004E54B1 /* NIOTestUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 52B65C0F2D509CD3004E54B1 /* NIOTestUtils */; };
+		52B65C122D509CD3004E54B1 /* NIOWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = 52B65C112D509CD3004E54B1 /* NIOWebSocket */; };
+		52B65C142D509CD3004E54B1 /* _NIOConcurrency in Frameworks */ = {isa = PBXBuildFile; productRef = 52B65C132D509CD3004E54B1 /* _NIOConcurrency */; };
+		52B65C162D509CD3004E54B1 /* _NIOFileSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 52B65C152D509CD3004E54B1 /* _NIOFileSystem */; };
+		52B65C182D509CD3004E54B1 /* _NIOFileSystemFoundationCompat in Frameworks */ = {isa = PBXBuildFile; productRef = 52B65C172D509CD3004E54B1 /* _NIOFileSystemFoundationCompat */; };
+		52B65C1B2D509D40004E54B1 /* SpotifyAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 52B65C1A2D509D40004E54B1 /* SpotifyAPI */; };
+		52B65C1D2D509D40004E54B1 /* SpotifyExampleContent in Frameworks */ = {isa = PBXBuildFile; productRef = 52B65C1C2D509D40004E54B1 /* SpotifyExampleContent */; };
+		52B65C1F2D509D40004E54B1 /* _SpotifyAPITestUtilities in Frameworks */ = {isa = PBXBuildFile; productRef = 52B65C1E2D509D40004E54B1 /* _SpotifyAPITestUtilities */; };
+		52B65C222D509DD0004E54B1 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 52B65C212D509DD0004E54B1 /* Realm */; };
+		52B65C242D509DD0004E54B1 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 52B65C232D509DD0004E54B1 /* RealmSwift */; };
+		52B65C272D50C182004E54B1 /* MongoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 52B65C262D50C182004E54B1 /* MongoSwift */; };
+		52B65C292D50C182004E54B1 /* MongoSwiftSync in Frameworks */ = {isa = PBXBuildFile; productRef = 52B65C282D50C182004E54B1 /* MongoSwiftSync */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52B65BE12D50994E004E54B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52B65BC82D50994D004E54B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B65BCF2D50994D004E54B1;
+			remoteInfo = "MindBodyFuel-Proto2";
+		};
+		52B65BEB2D50994E004E54B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52B65BC82D50994D004E54B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B65BCF2D50994D004E54B1;
+			remoteInfo = "MindBodyFuel-Proto2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52B65BD02D50994D004E54B1 /* MindBodyFuel-Proto2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MindBodyFuel-Proto2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B65BE02D50994E004E54B1 /* MindBodyFuel-Proto2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MindBodyFuel-Proto2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B65BEA2D50994E004E54B1 /* MindBodyFuel-Proto2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MindBodyFuel-Proto2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		52B65BD22D50994D004E54B1 /* MindBodyFuel-Proto2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MindBodyFuel-Proto2";
+			sourceTree = "<group>";
+		};
+		52B65BE32D50994E004E54B1 /* MindBodyFuel-Proto2Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MindBodyFuel-Proto2Tests";
+			sourceTree = "<group>";
+		};
+		52B65BED2D50994E004E54B1 /* MindBodyFuel-Proto2UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MindBodyFuel-Proto2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52B65BCD2D50994D004E54B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B65C042D509CD3004E54B1 /* NIOCore in Frameworks */,
+				52B65C182D509CD3004E54B1 /* _NIOFileSystemFoundationCompat in Frameworks */,
+				52B65C082D509CD3004E54B1 /* NIOFoundationCompat in Frameworks */,
+				52B65C142D509CD3004E54B1 /* _NIOConcurrency in Frameworks */,
+				52B65C102D509CD3004E54B1 /* NIOTestUtils in Frameworks */,
+				52B65C162D509CD3004E54B1 /* _NIOFileSystem in Frameworks */,
+				52B65C0C2D509CD3004E54B1 /* NIOPosix in Frameworks */,
+				52B65C002D509CD3004E54B1 /* NIO in Frameworks */,
+				52B65C1D2D509D40004E54B1 /* SpotifyExampleContent in Frameworks */,
+				52B65C222D509DD0004E54B1 /* Realm in Frameworks */,
+				52B65C122D509CD3004E54B1 /* NIOWebSocket in Frameworks */,
+				52B65C0A2D509CD3004E54B1 /* NIOHTTP1 in Frameworks */,
+				52B65C292D50C182004E54B1 /* MongoSwiftSync in Frameworks */,
+				52B65C242D509DD0004E54B1 /* RealmSwift in Frameworks */,
+				52B65C272D50C182004E54B1 /* MongoSwift in Frameworks */,
+				52B65C1F2D509D40004E54B1 /* _SpotifyAPITestUtilities in Frameworks */,
+				52B65C1B2D509D40004E54B1 /* SpotifyAPI in Frameworks */,
+				52B65C022D509CD3004E54B1 /* NIOConcurrencyHelpers in Frameworks */,
+				52B65C062D509CD3004E54B1 /* NIOEmbedded in Frameworks */,
+				52B65C0E2D509CD3004E54B1 /* NIOTLS in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B65BDD2D50994E004E54B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B65BE72D50994E004E54B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52B65BC72D50994D004E54B1 = {
+			isa = PBXGroup;
+			children = (
+				52B65BD22D50994D004E54B1 /* MindBodyFuel-Proto2 */,
+				52B65BE32D50994E004E54B1 /* MindBodyFuel-Proto2Tests */,
+				52B65BED2D50994E004E54B1 /* MindBodyFuel-Proto2UITests */,
+				52B65BFE2D509C5D004E54B1 /* Frameworks */,
+				52B65BD12D50994D004E54B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52B65BD12D50994D004E54B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52B65BD02D50994D004E54B1 /* MindBodyFuel-Proto2.app */,
+				52B65BE02D50994E004E54B1 /* MindBodyFuel-Proto2Tests.xctest */,
+				52B65BEA2D50994E004E54B1 /* MindBodyFuel-Proto2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52B65BFE2D509C5D004E54B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52B65BCF2D50994D004E54B1 /* MindBodyFuel-Proto2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B65BF42D50994E004E54B1 /* Build configuration list for PBXNativeTarget "MindBodyFuel-Proto2" */;
+			buildPhases = (
+				52B65BCC2D50994D004E54B1 /* Sources */,
+				52B65BCD2D50994D004E54B1 /* Frameworks */,
+				52B65BCE2D50994D004E54B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				52B65BD22D50994D004E54B1 /* MindBodyFuel-Proto2 */,
+			);
+			name = "MindBodyFuel-Proto2";
+			packageProductDependencies = (
+				52B65BFF2D509CD3004E54B1 /* NIO */,
+				52B65C012D509CD3004E54B1 /* NIOConcurrencyHelpers */,
+				52B65C032D509CD3004E54B1 /* NIOCore */,
+				52B65C052D509CD3004E54B1 /* NIOEmbedded */,
+				52B65C072D509CD3004E54B1 /* NIOFoundationCompat */,
+				52B65C092D509CD3004E54B1 /* NIOHTTP1 */,
+				52B65C0B2D509CD3004E54B1 /* NIOPosix */,
+				52B65C0D2D509CD3004E54B1 /* NIOTLS */,
+				52B65C0F2D509CD3004E54B1 /* NIOTestUtils */,
+				52B65C112D509CD3004E54B1 /* NIOWebSocket */,
+				52B65C132D509CD3004E54B1 /* _NIOConcurrency */,
+				52B65C152D509CD3004E54B1 /* _NIOFileSystem */,
+				52B65C172D509CD3004E54B1 /* _NIOFileSystemFoundationCompat */,
+				52B65C1A2D509D40004E54B1 /* SpotifyAPI */,
+				52B65C1C2D509D40004E54B1 /* SpotifyExampleContent */,
+				52B65C1E2D509D40004E54B1 /* _SpotifyAPITestUtilities */,
+				52B65C212D509DD0004E54B1 /* Realm */,
+				52B65C232D509DD0004E54B1 /* RealmSwift */,
+				52B65C262D50C182004E54B1 /* MongoSwift */,
+				52B65C282D50C182004E54B1 /* MongoSwiftSync */,
+			);
+			productName = "MindBodyFuel-Proto2";
+			productReference = 52B65BD02D50994D004E54B1 /* MindBodyFuel-Proto2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52B65BDF2D50994E004E54B1 /* MindBodyFuel-Proto2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B65BF72D50994E004E54B1 /* Build configuration list for PBXNativeTarget "MindBodyFuel-Proto2Tests" */;
+			buildPhases = (
+				52B65BDC2D50994E004E54B1 /* Sources */,
+				52B65BDD2D50994E004E54B1 /* Frameworks */,
+				52B65BDE2D50994E004E54B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52B65BE22D50994E004E54B1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				52B65BE32D50994E004E54B1 /* MindBodyFuel-Proto2Tests */,
+			);
+			name = "MindBodyFuel-Proto2Tests";
+			packageProductDependencies = (
+			);
+			productName = "MindBodyFuel-Proto2Tests";
+			productReference = 52B65BE02D50994E004E54B1 /* MindBodyFuel-Proto2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52B65BE92D50994E004E54B1 /* MindBodyFuel-Proto2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B65BFA2D50994E004E54B1 /* Build configuration list for PBXNativeTarget "MindBodyFuel-Proto2UITests" */;
+			buildPhases = (
+				52B65BE62D50994E004E54B1 /* Sources */,
+				52B65BE72D50994E004E54B1 /* Frameworks */,
+				52B65BE82D50994E004E54B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52B65BEC2D50994E004E54B1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				52B65BED2D50994E004E54B1 /* MindBodyFuel-Proto2UITests */,
+			);
+			name = "MindBodyFuel-Proto2UITests";
+			packageProductDependencies = (
+			);
+			productName = "MindBodyFuel-Proto2UITests";
+			productReference = 52B65BEA2D50994E004E54B1 /* MindBodyFuel-Proto2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52B65BC82D50994D004E54B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					52B65BCF2D50994D004E54B1 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					52B65BDF2D50994E004E54B1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 52B65BCF2D50994D004E54B1;
+					};
+					52B65BE92D50994E004E54B1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 52B65BCF2D50994D004E54B1;
+					};
+				};
+			};
+			buildConfigurationList = 52B65BCB2D50994D004E54B1 /* Build configuration list for PBXProject "MindBodyFuel-Proto2" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52B65BC72D50994D004E54B1;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				52B65BFD2D509AD7004E54B1 /* XCRemoteSwiftPackageReference "swift-nio" */,
+				52B65C192D509D40004E54B1 /* XCRemoteSwiftPackageReference "SpotifyAPI" */,
+				52B65C202D509DD0004E54B1 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				52B65C252D50C182004E54B1 /* XCRemoteSwiftPackageReference "mongo-swift-driver" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 52B65BD12D50994D004E54B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52B65BCF2D50994D004E54B1 /* MindBodyFuel-Proto2 */,
+				52B65BDF2D50994E004E54B1 /* MindBodyFuel-Proto2Tests */,
+				52B65BE92D50994E004E54B1 /* MindBodyFuel-Proto2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52B65BCE2D50994D004E54B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B65BDE2D50994E004E54B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B65BE82D50994E004E54B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52B65BCC2D50994D004E54B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B65BDC2D50994E004E54B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B65BE62D50994E004E54B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52B65BE22D50994E004E54B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52B65BCF2D50994D004E54B1 /* MindBodyFuel-Proto2 */;
+			targetProxy = 52B65BE12D50994E004E54B1 /* PBXContainerItemProxy */;
+		};
+		52B65BEC2D50994E004E54B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52B65BCF2D50994D004E54B1 /* MindBodyFuel-Proto2 */;
+			targetProxy = 52B65BEB2D50994E004E54B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52B65BF22D50994E004E54B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52B65BF32D50994E004E54B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52B65BF52D50994E004E54B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MindBodyFuel-Proto2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satya.MindBodyFuel-Proto2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52B65BF62D50994E004E54B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MindBodyFuel-Proto2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satya.MindBodyFuel-Proto2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52B65BF82D50994E004E54B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satya.MindBodyFuel-Proto2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindBodyFuel-Proto2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MindBodyFuel-Proto2";
+			};
+			name = Debug;
+		};
+		52B65BF92D50994E004E54B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satya.MindBodyFuel-Proto2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindBodyFuel-Proto2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MindBodyFuel-Proto2";
+			};
+			name = Release;
+		};
+		52B65BFB2D50994E004E54B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satya.MindBodyFuel-Proto2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MindBodyFuel-Proto2";
+			};
+			name = Debug;
+		};
+		52B65BFC2D50994E004E54B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satya.MindBodyFuel-Proto2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MindBodyFuel-Proto2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52B65BCB2D50994D004E54B1 /* Build configuration list for PBXProject "MindBodyFuel-Proto2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B65BF22D50994E004E54B1 /* Debug */,
+				52B65BF32D50994E004E54B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B65BF42D50994E004E54B1 /* Build configuration list for PBXNativeTarget "MindBodyFuel-Proto2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B65BF52D50994E004E54B1 /* Debug */,
+				52B65BF62D50994E004E54B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B65BF72D50994E004E54B1 /* Build configuration list for PBXNativeTarget "MindBodyFuel-Proto2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B65BF82D50994E004E54B1 /* Debug */,
+				52B65BF92D50994E004E54B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B65BFA2D50994E004E54B1 /* Build configuration list for PBXNativeTarget "MindBodyFuel-Proto2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B65BFB2D50994E004E54B1 /* Debug */,
+				52B65BFC2D50994E004E54B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52B65BFD2D509AD7004E54B1 /* XCRemoteSwiftPackageReference "swift-nio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-nio.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.80.0;
+			};
+		};
+		52B65C192D509D40004E54B1 /* XCRemoteSwiftPackageReference "SpotifyAPI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Peter-Schorn/SpotifyAPI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
+		52B65C202D509DD0004E54B1 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		52B65C252D50C182004E54B1 /* XCRemoteSwiftPackageReference "mongo-swift-driver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mongodb/mongo-swift-driver.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52B65BFF2D509CD3004E54B1 /* NIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B65BFD2D509AD7004E54B1 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIO;
+		};
+		52B65C012D509CD3004E54B1 /* NIOConcurrencyHelpers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B65BFD2D509AD7004E54B1 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOConcurrencyHelpers;
+		};
+		52B65C032D509CD3004E54B1 /* NIOCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B65BFD2D509AD7004E54B1 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOCore;
+		};
+		52B65C052D509CD3004E54B1 /* NIOEmbedded */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B65BFD2D509AD7004E54B1 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOEmbedded;
+		};
+		52B65C072D509CD3004E54B1 /* NIOFoundationCompat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B65BFD2D509AD7004E54B1 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOFoundationCompat;
+		};
+		52B65C092D509CD3004E54B1 /* NIOHTTP1 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B65BFD2D509AD7004E54B1 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOHTTP1;
+		};
+		52B65C0B2D509CD3004E54B1 /* NIOPosix */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B65BFD2D509AD7004E54B1 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOPosix;
+		};
+		52B65C0D2D509CD3004E54B1 /* NIOTLS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B65BFD2D509AD7004E54B1 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOTLS;
+		};
+		52B65C0F2D509CD3004E54B1 /* NIOTestUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B65BFD2D509AD7004E54B1 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOTestUtils;
+		};
+		52B65C112D509CD3004E54B1 /* NIOWebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B65BFD2D509AD7004E54B1 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOWebSocket;
+		};
+		52B65C132D509CD3004E54B1 /* _NIOConcurrency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B65BFD2D509AD7004E54B1 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = _NIOConcurrency;
+		};
+		52B65C152D509CD3004E54B1 /* _NIOFileSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B65BFD2D509AD7004E54B1 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = _NIOFileSystem;
+		};
+		52B65C172D509CD3004E54B1 /* _NIOFileSystemFoundationCompat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B65BFD2D509AD7004E54B1 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = _NIOFileSystemFoundationCompat;
+		};
+		52B65C1A2D509D40004E54B1 /* SpotifyAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B65C192D509D40004E54B1 /* XCRemoteSwiftPackageReference "SpotifyAPI" */;
+			productName = SpotifyAPI;
+		};
+		52B65C1C2D509D40004E54B1 /* SpotifyExampleContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B65C192D509D40004E54B1 /* XCRemoteSwiftPackageReference "SpotifyAPI" */;
+			productName = SpotifyExampleContent;
+		};
+		52B65C1E2D509D40004E54B1 /* _SpotifyAPITestUtilities */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B65C192D509D40004E54B1 /* XCRemoteSwiftPackageReference "SpotifyAPI" */;
+			productName = _SpotifyAPITestUtilities;
+		};
+		52B65C212D509DD0004E54B1 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B65C202D509DD0004E54B1 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		52B65C232D509DD0004E54B1 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B65C202D509DD0004E54B1 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		52B65C262D50C182004E54B1 /* MongoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B65C252D50C182004E54B1 /* XCRemoteSwiftPackageReference "mongo-swift-driver" */;
+			productName = MongoSwift;
+		};
+		52B65C282D50C182004E54B1 /* MongoSwiftSync */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B65C252D50C182004E54B1 /* XCRemoteSwiftPackageReference "mongo-swift-driver" */;
+			productName = MongoSwiftSync;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 52B65BC82D50994D004E54B1 /* Project object */;
+}
